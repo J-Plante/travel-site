@@ -19,7 +19,7 @@
 @define-mixin clearfix  {
   &::after  {
     content: "";
-    clear: both;
+    clear:both;
     display: table;
   }
 }
