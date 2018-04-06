@@ -4,7 +4,8 @@
   "dependencies": {
     "gulp-update": "0.0.2",
     "jquery": "^3.3.1",
-    "normalize.css": "^7.0.0"
+    "normalize.css": "^7.0.0",
+    "waypoints": "^4.0.1"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
