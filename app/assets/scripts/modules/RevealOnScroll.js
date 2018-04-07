@@ -7,7 +7,7 @@ class RevealOnScroll {
     this.hideInitially();
     this.offsetPercerntage = offset;
     this.createWaypoints();
-    
+
   }
   hideInitially()  {
     this.itemsToReveal.addClass("reveal-item");
