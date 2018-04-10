@@ -12,7 +12,7 @@
     @mixin atSmall {
       width: 72px;
       margin: 0 5px;
-    }
+   }
 
     .icon {
       display: block;

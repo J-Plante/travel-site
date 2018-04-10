@@ -45,6 +45,11 @@
         float:left;
         width: 33.33%;
       }
+
+      &__medium-4--larger  {
+        width: 37%;
+      }
+
       &__medium-6  {
         float: left;
         width: 50%;
@@ -55,11 +60,7 @@
         width: 66.66%;
       }
 
-    &__medium-4--larger  {
-      width: 37%;
-    }
-
-        &__medium-8--smaller  {
+      &__medium-8--smaller  {
       width: 63%;
     }
   }
@@ -69,31 +70,32 @@
       margin-bottom: 0;
     }
 
-    &__large -4  {
+    &__large-4  {
       float:left;
       width: 33.33%;
     }
-    &__large -6  {
+
+    &__large-4--larger  {
+      width: 37%;
+    }
+
+    &__large-6  {
       float: left;
       width: 50%;
     }
 
-    &__large -8  {
+    &__large-8  {
       float:left;
       width: 66.66%;
     }
 
-  &__large -4--larger  {
-    width: 37%;
-  }
-
-      &__large -8--smaller  {
+      &__large-8--smaller  {
     width: 63%;
   }
 }
 
-  &--equal-height-at-large   {
-    @mixin atLarge  {
+  .flexbox &--equal-height-at-medium   {
+    @mixin atMedium  {
       display: flex;
     }
     & > div  {
@@ -102,7 +104,7 @@
     }
   }
 
-  &--equal-height-at-large  {
+  .flexbox &--equal-height-at-large  {
     @mixin atLarge  {
       display: flex;
     }
